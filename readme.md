@@ -2,7 +2,7 @@ cli-args-parser-kata
 ===
 The goal of this program is to model a cli arguments parser. Given a series of input the program should produce a valid output according to the following specification.
 
-# Before you start
+## Before you start
 - Try not to read ahead, do one task at a time (the trick is to learn to work incrementally)!
 - Make sure you only test for correct inputs;
 - You may use whatever programming language you prefer;
@@ -10,7 +10,7 @@ The goal of this program is to model a cli arguments parser. Given a series of i
 - You should release your work under an OSI-approved open-source license of your choice;
 - Remember to sent a PR once your done with the kata 😉
 
-# Specification
+## Specification
 Choose one of the following input formats:
 - string like arguments `"--foo bar"`
 - array like arguments `["--foo", "bar"]`
