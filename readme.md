@@ -57,3 +57,7 @@ Choose one of the following input formats:
 
 ### 5. try to support both `string` and `array` input formats
 within the same function or a new function one of your choice.
+
+
+### Submitted solutions
+- [simcogno/cli-args-parser-kata](https://github.com/simcogno/cli-args-parser-kata)
