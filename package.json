@@ -1,0 +1,24 @@
+{
+  "name": "@bitliner/cli-args-parser-kata",
+  "version": "1.0.0",
+  "description": "cli-args-parser-kata === The goal of this program is to model a cli arguments parser. Given a series of input the program should produce a valid output according to the following specification.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node $npm_package_main",
+    "test": "m.test index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-fei/cli-args-parser-kata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian-fei/cli-args-parser-kata/issues"
+  },
+  "homepage": "https://github.com/christian-fei/cli-args-parser-kata#readme",
+  "devDependencies": {
+    "m.test": "0.0.57"
+  }
+}
