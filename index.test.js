@@ -9,13 +9,19 @@ test('parse a `composite` flag', () => {
   const args = cliArgsParser(['--foo', 'bar'])
   assert.deepEqual(args, {'foo': 'bar'})
 })
+test('parse a `composite` flags with integer values', () => {
+  const args = cliArgsParser(['--number', '1'])
+  assert.deepEqual(args, {number: 1})
+})
 
 function cliArgsParser (args) {
   return args.reduce((acc, arg, i, args) => {
     const next = args[i + 1]
     const argAsKey = arg.replace(/^--/, '')
     if (arg.startsWith('--')) {
-      const value = (next && next.startsWith && !next.startsWith('--')) ? next : true
+      let value = (next && next.startsWith && !next.startsWith('--')) ? next : true
+      if (parseInt(value) === +value) value = parseInt(value)
+
       acc[argAsKey] = value
     }
     return acc
