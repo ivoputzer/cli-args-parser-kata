@@ -13,6 +13,10 @@ test('parse a `composite` flags with integer values', () => {
   const args = cliArgsParser(['--number', '1'])
   assert.deepEqual(args, {number: 1})
 })
+test('parse multiple flags at once', () => {
+  const args = cliArgsParser(['--foo', '--bar', 'baz', '--number', '1'])
+  assert.deepEqual(args, {'bar': 'baz', 'foo': true, 'number': 1})
+})
 
 function cliArgsParser (args) {
   return args.reduce((acc, arg, i, args) => {
