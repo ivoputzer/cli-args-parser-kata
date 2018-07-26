@@ -11,6 +11,13 @@ test('parse a `composite` flag', () => {
 })
 
 function cliArgsParser (args) {
-  if (JSON.stringify(args) === '["--foo","bar"]') return {'foo': 'bar'}
-  return {foo: true}
+  return args.reduce((acc, arg, i, args) => {
+    const next = args[i + 1]
+    const argAsKey = arg.replace(/^--/, '')
+    if (arg.startsWith('--')) {
+      const value = (next && next.startsWith && !next.startsWith('--')) ? next : true
+      acc[argAsKey] = value
+    }
+    return acc
+  }, {})
 }
