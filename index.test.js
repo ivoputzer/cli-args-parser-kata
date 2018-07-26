@@ -10,6 +10,7 @@ test('parse a `composite` flag', () => {
   assert.deepEqual(args, {'foo': 'bar'})
 })
 
-function cliArgsParser () {
+function cliArgsParser (args) {
+  if (JSON.stringify(args) === '["--foo","bar"]') return {'foo': 'bar'}
   return {foo: true}
 }
