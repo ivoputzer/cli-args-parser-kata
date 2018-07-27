@@ -61,4 +61,4 @@ within the same function or a new function one of your choice.
 
 ### Submitted solutions
 - [simcogno/cli-args-parser-kata](https://github.com/simcogno/cli-args-parser-kata)
-- [christian-fei/cli-args-parser-kata](https://github.com/christian-fei/cli-args-parser-kata)
+- [christian-fei/cli-args-parser-kata v1](https://github.com/christian-fei/cli-args-parser-kata/tree/v1)
