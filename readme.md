@@ -1,3 +1,9 @@
+Here are my solutions:
+
+- https://github.com/christian-fei/cli-args-parser-kata/tree/v1
+
+---
+
 cli-args-parser-kata
 ===
 The goal of this program is to model a cli arguments parser. Given a series of input the program should produce a valid output according to the following specification.
@@ -61,3 +67,4 @@ within the same function or a new function one of your choice.
 
 ### Submitted solutions
 - [simcogno/cli-args-parser-kata](https://github.com/simcogno/cli-args-parser-kata)
+- [christian-fei/cli-args-parser-kata](https://github.com/christian-fei/cli-args-parser-kata)
