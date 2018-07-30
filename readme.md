@@ -76,3 +76,5 @@ within the same function or a new function one of your choice.
 **IMPORTANT:**  Implement the requirements focusing on **writing the best code** you can produce.
 
 **CODE SUBMISSION:** Add the code to your own Github account and send us the link.
+
+Credits to [Ivo Putzer](https://github.com/ivoputzer) for the original idea.
