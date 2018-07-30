@@ -55,7 +55,7 @@ Choose one of the following input formats:
   {"bar": "baz", "foo": true, "number": 1}
   ```
 
-### 5. handle multiple values for a single flag
+### 5. handle multiple values for the same flag
   given the following input:
   ```sh
   --foo --bar baz --bar zab --number 1
