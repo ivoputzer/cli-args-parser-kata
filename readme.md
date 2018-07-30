@@ -55,10 +55,24 @@ Choose one of the following input formats:
   {"bar": "baz", "foo": true, "number": 1}
   ```
 
-### 5. try to support both `string` and `array` input formats
+### 5. handle multiple values for a single flag
+  given the following input:
+  ```sh
+  --foo --bar baz --bar zab --number 1
+  ```
+  the program should produce either a dictionary or a JSON object as follows:
+  ```JSON
+  {"bar": ["baz", "zab"], "foo": true, "number": 1}
+  ```
+
+### 6. try to support both `string` and `array` input formats
 within the same function or a new function one of your choice.
 
 
-### Submitted solutions
-- [simcogno/cli-args-parser-kata](https://github.com/simcogno/cli-args-parser-kata)
-- [christian-fei/cli-args-parser-kata v1](https://github.com/christian-fei/cli-args-parser-kata/tree/v1)
+## General requirements
+- **We would love to see your submission written in JavaScript**. Although, you can use whatever language and frameworks you want. Use something that you know well.
+- **Provide a README with instructions** on how to compile and run the application.
+
+**IMPORTANT:**  Implement the requirements focusing on **writing the best code** you can produce.
+
+**CODE SUBMISSION:** Add the code to your own Github account and send us the link.
