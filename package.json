@@ -1,0 +1,16 @@
+{
+  "name": "cli-args-parser-kata",
+  "version": "0.0.0-private",
+  "private": true,
+  "standard": {
+    "global": [
+      "test"
+    ]
+  },
+  "scripts": {
+    "test": "m.test"
+  },
+  "devDependencies": {
+    "m.test": "0.0.57"
+  }
+}
