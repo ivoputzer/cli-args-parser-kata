@@ -1,5 +1,7 @@
 cli-args-parser-kata
 ===
+The following is a TDD Kata: an exercise in coding, refactoring and test-first.
+
 The goal of this program is to model a cli arguments parser. Given a series of input the program should produce a valid output according to the following specification.
 
 ## Before you start
