@@ -10,7 +10,7 @@ The goal of this program is to model a cli arguments parser. Given a series of i
 - You may use whatever programming language you prefer;
 - You should commit your code on GitHub or any other SCM repository you prefer;
 - You should release your work under an OSI-approved open-source license of your choice;
-- Remember to sent a PR once you're done with the kata 😉
+- Remember to send a PR once you're done with the kata 😉
 
 ## Specification
 Choose one of the following input formats:
